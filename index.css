@@ -1,0 +1,37 @@
+html {
+    background-image: url("./tara-evans-IcvR0jFbsz0-unsplash.jpg");
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+button {
+    display: flex;
+    margin: 1em auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#increment {
+    background-color: rgb(170, 204, 231);
+}
+
+#increment:active {
+    background-color:rgb(130, 155, 175)
+}
+
+#reset {
+    background-color: rgb(238, 173, 173)
+}
+
+#reset:active {
+    background-color: rgb(167, 123, 123)
+}
